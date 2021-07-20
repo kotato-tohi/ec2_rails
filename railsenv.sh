@@ -20,7 +20,7 @@ sudo cat /var/log/mysqld.log | grep pass
 echo "install node.js"
 sudo yum -y install git make gcc-c++ patch libyaml-devel libffi-devel libicu-devel zlib-devel readline-devel libxml2-devel libxslt-devel ImageMagick ImageMagick-devel openssl-devel
 curl -sL https://rpm.nodesource.com/setup_16.x | sudo bash --
-yum -y install nodejs
+sudo yum -y install nodejs
 
 echo "install yarn"
 curl -o- -L https://yarnpkg.com/install.sh | bash
