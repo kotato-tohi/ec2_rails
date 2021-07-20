@@ -2,7 +2,7 @@
 
 echo "mariadb remove"
 sudo yum update -y
-sudo yum remove mariadb-libs 
+sudo yum remove mariadb-libs -y
 
 echo "mysql install"
 sudo yum localinstall https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm -y
