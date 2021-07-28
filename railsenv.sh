@@ -49,3 +49,5 @@ echo "You need to change it."
 echo "$ mysql -u root -p"
 echo "musql> ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY "XXXX";"
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+
+source ~/.bash_profile
